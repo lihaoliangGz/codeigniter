@@ -6,3 +6,7 @@
  * Time: 下午 3:17
  */
 echo "Hello World!!<br/>";
+echo $this->benchmark->elapsed_time();
+echo PHP_EOL;
+
+echo $this->benchmark->memory_usage();
